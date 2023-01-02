@@ -1,7 +1,11 @@
 # wifispo2
 esp8266+max30102+ssd1306血氧仪
-# 效果：
+可能不是很准，毕竟代码都是扒的，我只是拼了一下
 
+# 效果：
+<img src="1.jpg">
+<img src="2.jpg">
+<img src="3.jpg">
 
 # 接线参考：
 <img src="接线参考图.jpg">
