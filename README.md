@@ -1,6 +1,7 @@
 # wifispo2
 esp8266+max30102+ssd1306血氧仪
-
+# 接线参考：
+<img src="接线参考图.jpg">
 # 参考资料：
 https://www.youtube.com/watch?v=b1wNe_9Ikl8
 
