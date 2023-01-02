@@ -10,8 +10,8 @@
 #include <ESPAsyncWebServer.h>
 
 
-
-const char* ssidAP = "mule-SP02";
+//ap的SSID，这个可以改成自己喜欢的
+const char* ssidAP = "SP02";
 const char* passwordAP = "";
 
 AsyncWebServer server(80);
@@ -60,7 +60,7 @@ const char index_html[] PROGMEM = R"rawliteral(
     <td>朋友圈最屌血氧仪</td>
   </tr>
   <tr>
-    <td>by mule</td>
+    <td>mule</td>
   </tr>
 </table>
 <table>
@@ -361,10 +361,12 @@ void loop()
      display.clearDisplay();
      display.setTextSize(2);                    
      display.setTextColor(WHITE);             
-     display.setCursor(15,7);                
+     display.setCursor(15,7);  
+    // 屏幕的第一行字
      display.println("SpO2 YYDS"); 
      display.setCursor(30,35);
      display.setTextSize(3);  
+    //屏幕的第二行字
      display.println("MULE");  
      display.display();
      //noTone(3);
