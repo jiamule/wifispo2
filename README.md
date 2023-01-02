@@ -4,8 +4,8 @@ esp8266+max30102+ssd1306血氧仪
 
 # 效果：
 <img src="1.jpg">
-<img src="2.jpg">
-<img src="3.jpg">
+<img src="2.JPG">
+<img src="3.JPG">
 
 # 接线参考：
 <img src="接线参考图.jpg">
